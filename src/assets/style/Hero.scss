@@ -1,0 +1,36 @@
+#hero {
+  padding: 60px 0;
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    &--text {
+      display: flex;
+      flex-direction: column;
+      h1 {
+        font-size: 60px;
+      }
+      span {
+        color: #8176af;
+      }
+      p {
+        font-size: 22px;
+        padding: 20px 0;
+      }
+    }
+    &--icon {
+      button {
+        width: 200px;
+        height: 50px;
+        border-radius: 50px;
+        background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+        border: none;
+        color: black;
+      }
+      a {
+        width: 50px;
+      }
+    }
+  }
+}

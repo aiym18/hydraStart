@@ -1,0 +1,24 @@
+@import "././assets/style/Header.scss";
+@import "././assets/style/Hero.scss";
+@import "././assets/style/Contact.scss";
+@import "././assets/style/Number.scss";
+@import "././assets/style/Join.scss";
+@import "././assets/style/Footer.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+body{
+    background: rgba(68, 50, 85, 0.897);
+}
